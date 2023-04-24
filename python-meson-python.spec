@@ -1,6 +1,6 @@
 Summary:	Meson Python build backend
 Name:		python-meson-python
-Version:	0.12.1
+Version:	0.13.0
 Release:	1
 License:	MIT
 Group:		Development/Python
