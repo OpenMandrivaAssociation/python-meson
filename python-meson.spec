@@ -9,6 +9,7 @@ Group:		Development/Python
 BuildSystem:	python
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(pyproject-metadata)
+BuildRequires:	meson
 BuildArch:	noarch
 
 %description
