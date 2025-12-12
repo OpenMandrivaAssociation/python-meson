@@ -1,6 +1,6 @@
 Name:		python-meson
 Version:	0.18.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/m/meson-python/meson_python-%{version}.tar.gz
 Summary:	Meson Python build backend (PEP 517)
 URL:		https://pypi.org/project/meson-python/
