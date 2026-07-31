@@ -1,5 +1,5 @@
 Name:		python-meson
-Version:	0.19.0
+Version:	0.20.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/m/meson-python/meson_python-%{version}.tar.gz
 Summary:	Meson Python build backend (PEP 517)
