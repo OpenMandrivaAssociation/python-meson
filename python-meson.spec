@@ -1,5 +1,5 @@
 Name:		python-meson
-Version:	0.20.0
+Version:	0.22.1
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/m/meson-python/meson_python-%{version}.tar.gz
 Summary:	Meson Python build backend (PEP 517)
@@ -8,6 +8,7 @@ License:	MIT
 Group:		Development/Python
 BuildSystem:	python
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(packaging)
 BuildRequires:	python%{pyver}dist(pyproject-metadata)
 BuildRequires:	meson
 BuildArch:	noarch
@@ -16,5 +17,6 @@ BuildArch:	noarch
 Meson Python build backend (PEP 517)
 
 %files
+%license LICENSES/MIT.txt
 %{py_sitedir}/mesonpy
 %{py_sitedir}/meson_python-*.*-info
